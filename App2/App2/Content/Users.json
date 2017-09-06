@@ -1,0 +1,67 @@
+﻿[
+  {
+    "Name": "Артем Войтович",
+    "Avatar": "http://www.msproadshow.org/images/speaker/9.jpg",
+    "Description": "MSP, Full-Stack .NET Developer at Honeycomb software, прихильник кроссплатформових додатків."
+  },
+  {
+    "Name": "Дмитро Жлуктенко",
+    "Avatar": "http://www.msproadshow.org/images/speaker/11.jpg",
+    "Description": "Microsoft Student Partner, студент Львівської Політехніки, .NET розробник в компанії Euristiq, адепт функціонального програмування, багато пишу про програмування."
+  },
+  {
+    "Name": "Олексій Манойло",
+    "Avatar": "http://www.msproadshow.org/images/speaker/6.jpg",
+    "Description": "MSP, .NET разработчик в компании Andersenlab. Интересуюсь .NET C#/F# разработкой, а также веб и облачными технологиями."
+  },
+  {
+    "Name": "Дмитро Павленко",
+    "Avatar": "http://www.msproadshow.org/images/speaker/7.jpg",
+    "Description": "MSP, Software Engineer, прихильник розробки багатосервісних додатків, а також фанат Go та Rust."
+  },
+  {
+    "Name": "Максим Власов",
+    "Avatar": "http://www.msproadshow.org/images/speaker/4.jpg",
+    "Description": "Junior DevOps Engineer в PDFfiller. Співзасновник найбільшого студентського ІТ-ком’юніті в Україні - ІТ КПІ. Пишу на всьому, на чому доведеться, найбільше люблю Python і NodeJS. На більшість цікавих мені конференцій ходжу в якості волонтера, якщо це можливо. Люблю їздити на велосипедах, особливо фізичних. Не люблю їх писати)."
+  },
+  {
+    "Name": "Ілля Лубенець",
+    "Avatar": "http://www.msproadshow.org/images/speaker/10.jpg",
+    "Description": "MSP, .NET розробник в компанії Developex. Фанат розробки розподілених систем."
+  },
+  {
+    "Name": "Тарас Середоха",
+    "Avatar": "http://www.msproadshow.org/images/speaker/5.jpg",
+    "Description": "Full stack розробник web сайтів на платформі .NET. Цікавиться хмарними технологіями та рішеннями в сфері IT transformation."
+  },
+  {
+    "Name": "Кирило Безпалий",
+    "Avatar": "http://www.msproadshow.org/images/speaker/3.jpg",
+    "Description": "MSP, Back-end .Net розробник. Мавпочка по написанню коду."
+  },
+  {
+    "Name": "Євген Пінкаль",
+    "Avatar": "http://www.msproadshow.org/images/speaker/8.jpg",
+    "Description": "MSP, MCP, JavaScript розробник в повному розквіті сил, до того ще й талановитий! :)"
+  },
+  {
+    "Name": "Андрій Чебукін",
+    "Avatar": "http://www.msproadshow.org/images/speaker/2.jpg",
+    "Description": "Ленивая задница в Secret Circle Solution."
+  },
+  {
+    "Name": "Кірілл Статівкін",
+    "Avatar": "http://www.msproadshow.org/images/speaker/1.jpg",
+    "Description": "MSP, Xamarin - консультант в компанії Cellenza, мобiльний розробник до мозку кiсток, впевненний що .Net врятує Всесвiт."
+  },
+  {
+    "Name": "Ігор Леонт'єв",
+    "Avatar": "http://www.msproadshow.org/images/speaker/13.jpg",
+    "Description": "Microsoft Azure MVP. Засновник та iдейний натхненник MSP Roadshow.  Azure Arhitect and DevOps,ALM у VISEO Group. Франція."
+  },
+  {
+    "Name": "Антон Долгополов",
+    "Avatar": "http://www.msproadshow.org/images/speaker/12.jpg",
+    "Description": "Закончил КНУ им. Тараса Шевченка, получив бакалавра по специальности 'Компьютерная инженерия'. Участник Garage48 & Media Hack Weekend. Выпускник первой инкубационной программы в Open Data Incubator 1991. Full-stack Developer (.NET) в Brockhaus AG."
+  }
+]

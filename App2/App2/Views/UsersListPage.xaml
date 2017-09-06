@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:transformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="App2.Views.UsersListPage">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <forms:CachedImage
+                x:Name="BackgroundImage"
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type= RelativeToParent, Property=Height}"
+                Aspect="AspectFill"
+                DownsampleToViewSize="True" />
+
+            <StackLayout 
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
+                <forms:CachedImage
+                    Margin="0, 5, 0, 0"
+                    x:Name="LogoImage"
+                    HorizontalOptions="Center"
+                    WidthRequest="180"
+                    HeightRequest="140"
+                    DownsampleToViewSize="True" />
+                <ListView x:Name="UsersList" ItemsSource="{Binding Users}"
+                          SelectedItem="{Binding SelectedFriend, Mode=TwoWay}"
+                          HasUnevenRows="True">
+                    <x:Arguments>
+                        <ListViewCachingStrategy>RecycleElement</ListViewCachingStrategy>
+                    </x:Arguments>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="64" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <forms:CachedImage
+                                        Grid.Column="0"
+                                        WidthRequest="64"
+                                        HeightRequest="64"
+                                        DownsampleToViewSize="True"
+                                        FadeAnimationEnabled="True"
+                                        Source="{Binding Avatar}">
+                                        <forms:CachedImage.Transformations>
+                                            <transformations:CircleTransformation />
+                                        </forms:CachedImage.Transformations>
+                                    </forms:CachedImage>
+
+                                    <Label Grid.Column="1"
+                                           Text="{Binding Name}"
+                                           TextColor="White"
+                                           FontSize="18"
+                                           VerticalOptions="Center" />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
